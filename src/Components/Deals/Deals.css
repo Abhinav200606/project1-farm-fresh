@@ -1,0 +1,47 @@
+.move{
+    padding: 94px 0; 
+}
+.slider-image{
+    width: 1400px;
+    height: 550px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 0px solid;
+    border-radius: 10px;
+}
+.intro{
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 240px;
+    padding-left: 80px;
+}
+.h1{
+  
+    font-size: 40px;
+    color: white;
+   
+}
+.bt{
+    color: white;
+    background-color: green;
+    padding: 14px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid green;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:950px){
+    .about_text{
+        width: 400px;
+    }
+    .slider-image{
+        width:500px ;
+    }
+    .h1{
+        font-size: 20px;
+    }
+}

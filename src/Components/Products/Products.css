@@ -1,0 +1,89 @@
+.available{
+    width: 100%;
+    padding: 100px 0;
+}
+.available h1{
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.available h1 span{
+    color: #68d66f;
+    margin-left: 15px;
+}
+.av_box{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    flex-basis: 31%;
+}
+.av_card{
+    width: 352px;
+    height: 440px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.av_image{
+    width: 350px;
+    height: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.av_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+.av_image:hover img{
+    transform: scale(1.1);
+}
+.av_info h2{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    font-size: 25px;
+    color: green;
+}
+.av_info h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.av_icon{
+    color: green;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+.av_btn{
+    display: flex;
+    align-items: center;
+    background: green;
+    justify-content: center;
+    color: #fff;
+    margin: 0 80px;
+    border-radius: 30px;
+    padding: 7px;
+    transition: 0.3s;
+}
+.av_btn:hover{
+    background: #000;
+}
+
+@media (max-width:650px){
+    .a2{
+        display: none;
+    }
+    .available h1{
+        font-size: 30px;
+    }
+    .av_box{
+        display: block;
+    }
+    
+} 
